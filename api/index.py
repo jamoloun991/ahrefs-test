@@ -79,7 +79,7 @@ def _send_ahrefsbot_alert(ua):
         payload = _json.dumps({
             "from": "AhrefsBot Alert <onboarding@resend.dev>",
             "to": ["thomas.gest8@gmail.com"],
-            "subject": "🤖 AhrefsBot a crawlé ahrefs-test.vercel.app",
+            "subject": "🤖 AhrefsBot a crawlé ahrefs-test-navy.vercel.app",
             "html": f"<p><strong>AhrefsBot vient de passer !</strong></p>"
                     f"<p>Heure : {_dt.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC</p>"
                     f"<p>User-Agent : {ua}</p>"
